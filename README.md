@@ -1,3 +1,4 @@
+# This repo is not supported by Pure Storage and there are no maintenance plans for this
 [![Build Status](https://travis-ci.com/devans10/pugo.svg?branch=master)](https://travis-ci.com/devans10/pugo) [![Go Report Card](https://goreportcard.com/badge/github.com/devans10/pugo)](https://goreportcard.com/report/github.com/devans10/pugo) [![codecov](https://codecov.io/gh/devans10/pugo/branch/master/graph/badge.svg)](https://codecov.io/gh/devans10/pugo) [![GoDoc](https://godoc.org/github.com/devans10/pugo?status.svg)](https://godoc.org/github.com/devans10/pugo)
 
 # PuGo - A Go REST client for Pure Storage 
