@@ -50,6 +50,7 @@ type Client struct {
 	Pods                *PodService
 	Volumes             *VolumeService
 	VolumeSnapshots     *VolumeSnapshotService
+	Subscriptions       *SubscriptionService
 }
 
 type pure1Response struct {
@@ -99,6 +100,7 @@ func NewClient(appID string, privateKey []byte, restVersion string) (*Client, er
 	c.Pods = &PodService{client: c}
 	c.Volumes = &VolumeService{client: c}
 	c.VolumeSnapshots = &VolumeSnapshotService{client: c}
+	c.Subscriptions = &SubscriptionService{client: c}
 
 	return c, nil
 }
