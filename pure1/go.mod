@@ -1,5 +1,5 @@
-module github.com/devans10/pugo/pure1
+module github.com/Callisto13/pugo/pure1
 
-go 1.12
+go 1.19
 
 require github.com/dgrijalva/jwt-go v3.2.0+incompatible
